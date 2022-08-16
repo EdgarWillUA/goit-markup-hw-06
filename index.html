@@ -582,8 +582,25 @@
                 </svg>
               </a>
             </li>
-          </ul>
+          </ul>         
         </div>
+
+        <form class="footer-subscription-form">
+          <h3 class="footer-subscription-form-title">Подпишитесь на рассылку</h3>
+          <div class="footer-subsubscription-form-group">
+          <label class="footer-subscription-form-wrap">
+            <input class="footer-subscription-form-input" type="email" name="email" placeholder="E-mail">
+          </label>
+    
+          <button class="footer-subscription-form-btn" type="submit">Подписаться
+            <svg class="footer-subscription-form-btn-svg" height="24" width="24">
+              <use href="./icons/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+          </div>
+          
+        </form>
+        
       </div>
     </footer>
 
@@ -624,7 +641,7 @@
               <span class="register-form-label">Комментарий</span>
               <textarea
                 class="register-form-message"
-                name=""
+                name="feedback"
                 rows="5"
                 placeholder="Введите текст"
               ></textarea>
@@ -643,9 +660,7 @@
             </span>
           </label>
 
-          <button class="register-form-btn" type="submit">
-            Отправить
-          </button>
+          <button class="register-form-btn" type="submit">Отправить</button>
         </form>
       </div>
     </div>
